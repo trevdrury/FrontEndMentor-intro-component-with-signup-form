@@ -4,7 +4,7 @@
   "description": "Frontend Mentor challenge intro component with signup form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o css/ --recursive"
   },
   "author": "Trevor Drury",
   "license": "ISC",

@@ -1,0 +1,153 @@
+/*#region START*/
+/* COLORS */
+/* IMAGE URLs */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background: url("../assets/bg-intro-mobile.png") #ff7a7a no-repeat;
+}
+
+/*#endregion*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3.2rem 0;
+  padding: 2.4rem;
+}
+
+.container .text-block {
+  color: white;
+  text-align: center;
+}
+
+.container .text-block h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 3.6rem;
+}
+
+.container .text-block p {
+  margin: 3.2rem 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.container .form-block .highlight {
+  margin-top: 3.2rem;
+  margin-bottom: 2.4rem;
+  background: #6055a5;
+  color: white;
+  width: 100%;
+  height: 8.8rem;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+.container .form-block .highlight p {
+  padding: 1.8rem 0;
+}
+
+.container .form-block .highlight span {
+  font-weight: 700;
+}
+
+.container .form-block form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  padding: 2.4rem;
+}
+
+.container .form-block form input {
+  width: 100%;
+  height: 5.6rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  margin-bottom: 1.6rem;
+  padding-left: 1.8rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+}
+
+.container .form-block form button {
+  color: white;
+  background: #38cc8c;
+  height: 5.6rem;
+  border: none;
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+          box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.container .form-block form button:hover {
+  background: #77E2B3;
+}
+
+.container .form-block form p {
+  margin-top: 0.8rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #BAB7D4;
+}
+
+.container .form-block form p a {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 21px;
+  text-align: center;
+  color: #FF7979;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  margin-bottom: 1.6rem;
+}
+
+.attribution a {
+  color: #6055a5;
+}
+/*# sourceMappingURL=styles.css.map */
