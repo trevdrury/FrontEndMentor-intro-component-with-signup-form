@@ -47,10 +47,6 @@ body {
 
 /*#endregion*/
 
-.hidden {
-  display: hidden;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -58,7 +54,7 @@ body {
   padding: 2.4rem;
 
   @media only screen and (min-width: $breakpoint-tablet) {
-    max-width: 1440px;
+    max-width: 1140px;
     flex-direction: row;
     align-items: center;
   }
